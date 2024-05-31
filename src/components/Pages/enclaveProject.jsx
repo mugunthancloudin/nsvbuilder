@@ -6,13 +6,13 @@ import SimilarProjects from './../Elements/SimilarProjects';
 import Banner from './../Elements/Banner';
 import ReactPlayer from 'react-player';
 
-var bnrimg = require('./../../images/banner/residencyBanner.jpg');
+var bnrimg = require('./../../images/banner/banner.jpg');
 
 class EnclaveProject extends React.Component {
     
     render() {
         return (
-            <>
+            <>  
                 <Header />
                 <div className="page-content">
                 <Banner title="Helping you and your house become better acquainted." pagename="NSV-Enclave" bgimage={bnrimg}/>

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import ReactPlayer from "react-player";
-// import localVideo from "../../assets/media/video/droneVid.MP4";
+import localVideo from "../../assets/media/video/drone.mp4";
 
 var img1 = require("./../../images/Banner03.jpg");
 
@@ -39,9 +39,7 @@ class OurValue2 extends React.Component {
                               to={"#"}
                               className="font-weight-600 text-uppercase"
                               onClick={this.openModal}
-                            >
-                              Video Presentation
-                            </NavLink>
+                            ></NavLink>
                           </div>
                         </div>
                       </div>
@@ -95,14 +93,14 @@ class OurValue2 extends React.Component {
                   </div> */}
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
 
-        <div className="modal fade" id="myModal"  role="dialog">
+        <div className="modal fade" id="myModal" role="dialog">
           <div className="modal-dialog">
             <div className="modal-content">
-              {/* <ReactPlayer url={localVideo} controls={true} playing={true} />{" "} */}
+              <ReactPlayer url={localVideo} controls={true} playing={true} />
             </div>
           </div>
         </div>

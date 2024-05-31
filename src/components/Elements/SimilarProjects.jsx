@@ -6,28 +6,28 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const projects = [
     {
-        image: require('./../../images/projects/square/pic4.jpg'),
+        image: require('./../../images/projects/square/plan1.jpg'),
         title: 'Delivering architecture, planning, and design',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim'
     },
     {
-        image: require('./../../images/projects/square/pic7.jpg'),
+        image: require('./../../images/projects/square/plan2.jpg'),
         title: 'Capitalizing on the unique qualities of each place',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim',
         filter: 'cat-2'
     },
     {
-        image: require('./../../images/projects/square/pic5.jpg'),
+        image: require('./../../images/projects/square/plan7.jpg'),
         title: 'Delivering architecture, planning, and design',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim'
     },
     {
-        image: require('./../../images/projects/square/pic6.jpg'),
+        image: require('./../../images/projects/square/plan4.jpg'),
         title: 'Improving quality of life with an integrated unified approach',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim'
     },
     {
-        image: require('./../../images/projects/square/pic3.jpg'),
+        image: require('./../../images/projects/square/plan5.jpg'),
         title: 'Unique solutions for your home through a personalized process',
         description: 'Morbi mattis ex non urna condim entum, eget eleifend diam molestie. Curabitur lorem enim'
     }
@@ -103,15 +103,15 @@ class SimilarProjects extends React.Component {
                             
                             <OwlCarousel className="owl-carousel similar-projects owl-btn-vertical-center" {...options}>
                                 {projects.map((item, index) => (
-                                            <div key={index} className="item mt-box">
-                                                <div className="mt-img-effect mt-img-overlay7">
+                                            <div key={index} className="item mt-box w-100">
+                                                <div className="mt-img-effect mt-img-overlay7 w-100">
                                                     <img src={item.image} alt="" />
                                                 </div>
-                                                <div className="mt-info p-a30">
+                                                {/* <div className="mt-info p-a30">
                                                     <h4 className="m-b20 m-t0"><NavLink to={"#"}>{item.title}</NavLink></h4>
                                                     <p>{item.description}</p>
                                                     <NavLink to={"#"} className="site-button btn-effect">Read More</NavLink>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         ))}
                                 

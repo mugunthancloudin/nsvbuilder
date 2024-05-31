@@ -2,85 +2,85 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const filters = [
-    { label: "NSV Enclave", filter: ".cat-1" },
-    { label: "NSV Residency", filter: ".cat-4" },
-    { label: "Hospital", filter: ".cat-2" },
-    { label: "Residential", filter: ".cat-3" },
-    { label: "Office", filter: ".cat-5" },
-    { label: "Reconstruction", filter: ".cat-6" }
+    { label: "NSV Enclave", filter: ".residency" },
+    { label: "NSV Residency", filter: ".enclave" },
+    // { label: "Hospital", filter: ".cat-2" },
+    // { label: "Residential", filter: ".cat-3" },
+    // { label: "Office", filter: ".cat-5" },
+    // { label: "Reconstruction", filter: ".cat-6" }
 ];
 
 const projects = [
     {
-        image: require('./../../images/projects/portrait/pic1.jpg'),
+        image: require('./../../images/projects/portrait/residency01.jpeg'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
-        filter: 'cat-2'
+        filter: 'residency'
     },
     {
-        image: require('./../../images/projects/portrait/pic2.jpg'),
+        image: require('./../../images/projects/portrait/residency02.jpeg'),
         title: 'Furniture',
         address: 'North House',
         width: 'col-md-3',
-        filter: 'cat-2'
+        filter: 'residency'
     },
     {
-        image: require('./../../images/projects/portrait/pic3.jpg'),
+        image: require('./../../images/projects/portrait/residency03.jpeg'),
         title: 'Living room',
         address: 'Aqaba, Jordan',
         width: 'col-md-3',
-        filter: 'cat-6'
+        filter: 'residency'
     },
     {
-        image: require('./../../images/projects/portrait/pic4.jpg'),
+        image: require('./../../images/projects/portrait/enclave01.jpeg'),
         title: 'Dream Workspace',
         address: 'Perth, Australia',
         width: 'col-md-3',
-        filter: 'cat-6'
+        filter: 'enclave'
     },
     {
-        image: require('./../../images/projects/portrait/pic5.jpg'),
+        image: require('./../../images/projects/portrait/enclave02.jpeg'),
         title: 'Decore',
         address: 'Aqaba, Jordan',
         width: 'col-md-3',
-        filter: 'cat-3'
+        filter: 'enclave'
     },
     {
-        image: require('./../../images/projects/portrait/pic6.jpg'),
+        image: require('./../../images/projects/portrait/enclave03.jpeg'),
         title: 'Modern Decoration',
         address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
-        filter: 'cat-3'
-    },
-    {
-        image: require('./../../images/projects/portrait/pic7.jpg'),
-        title: 'Bathroom',
-        address: 'North House',
-        width: 'col-md-3',
-        filter: 'cat-1'
-    },
-    {
-        image: require('./../../images/projects/pic-l-5.jpg'),
-        title: 'Lamp decoration',
-        address: 'Aqaba, Jordan',
-        width: 'col-md-6',
-        filter: 'cat-6'
-    },
-    {
-        image: require('./../../images/projects/pic-1.jpg'),
-        title: 'Building house',
-        address: 'Ultanate of Oman',
-        width: 'col-md-3',
-        filter: 'cat-5'
-    },
-    {
-        image: require('./../../images/projects/pic-2.jpg'),
-        title: 'Spa residence',
-        address: 'Perth, Australia',
-        width: 'col-md-3',
-        filter: 'cat-4'
+        filter: 'enclave'
     }
+    // {
+    //     image: require('./../../images/projects/portrait/pic7.jpg'),
+    //     title: 'Bathroom',
+    //     address: 'North House',
+    //     width: 'col-md-3',
+    //     filter: 'cat-1'
+    // },
+    // {
+    //     image: require('./../../images/projects/pic-l-5.jpg'),
+    //     title: 'Lamp decoration',
+    //     address: 'Aqaba, Jordan',
+    //     width: 'col-md-6',
+    //     filter: 'cat-6'
+    // },
+    // {
+    //     image: require('./../../images/projects/pic-1.jpg'),
+    //     title: 'Building house',
+    //     address: 'Ultanate of Oman',
+    //     width: 'col-md-3',
+    //     filter: 'cat-5'
+    // },
+    // {
+    //     image: require('./../../images/projects/pic-2.jpg'),
+    //     title: 'Spa residence',
+    //     address: 'Perth, Australia',
+    //     width: 'col-md-3',
+    //     filter: 'cat-4'
+    // }
 ]
 
 class OurProject extends React.Component {

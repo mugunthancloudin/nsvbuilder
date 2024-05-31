@@ -6,7 +6,7 @@ import SimilarProjects from "./../Elements/SimilarProjects";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 
-var bnrimg = require("./../../images/banner/residencyBanner.jpg");
+var bnrimg = require("./../../images/banner/banner.jpg");
 
 class ResidencyProject extends React.Component {
   render() {
@@ -18,6 +18,7 @@ class ResidencyProject extends React.Component {
             title="Helping you and your house become better acquainted."
             pagename="NSV-Residency"
             bgimage={bnrimg}
+            // className="pb-5"
           />
 
           {/* SECTION CONTENT START */}
@@ -90,7 +91,7 @@ class ResidencyProject extends React.Component {
                       <div className="project-detail-pic m-b30">
                         <div className="mt-media">
                           <img
-                            src={require("./../../images/projects/portrait/pic7.jpg")}
+                            src={require("./../../images/projects/portrait/elevation1.jpeg")}
                             alt=""
                           />
                         </div>
@@ -100,7 +101,7 @@ class ResidencyProject extends React.Component {
                       <div className="project-detail-pic m-b30">
                         <div className="mt-media">
                           <img
-                            src={require("./../../images/projects/portrait/pic4.jpg")}
+                            src={require("./../../images/projects/portrait/elevation2.jpeg")}
                             alt=""
                           />
                         </div>
@@ -110,7 +111,7 @@ class ResidencyProject extends React.Component {
                       <div className="project-detail-pic m-b30">
                         <div className="mt-media">
                           <img
-                            src={require("./../../images/projects/portrait/pic5.jpg")}
+                            src={require("./../../images/projects/portrait/elevation3.jpeg")}
                             alt=""
                           />
                         </div>
