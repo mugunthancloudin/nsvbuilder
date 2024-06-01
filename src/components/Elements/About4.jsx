@@ -87,11 +87,10 @@ class About4 extends React.Component {
                       approach.
                     </h3>
                     <p>
-                      Dummy text is also used to demonstrate the appearance of
-                      different typefaces and layouts, and in general the
-                      content of dummy text is nonsensical. Due to its
-                      widespread use texts. Ut wisi enim ad minim veniam, quis
-                      nostrud exerci tation.
+                      It is our goal to ensure your complete satisfaction
+                      throughout the building period and long after. We offer
+                      innovative floor plans with a variety of flexible options
+                      to meet your changing lifestyle needs.
                     </p>
                     <div className="author-info p-t20">
                       {/* <div className="author-signature">

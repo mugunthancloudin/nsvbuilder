@@ -32,33 +32,36 @@ class ResidencyProject extends React.Component {
                         <div className="row">
                           <div className="col-md-12 m-b10">
                             <h4 className="text-uppercase font-weight-600 m-b10">
-                              Date 
+                              CCTV Survelliance
                             </h4>
-                            <p>April 10, 2022</p>
                           </div>
                           <div className="col-md-12 m-b10">
                             <h4 className="text-uppercase font-weight-600 m-b10">
-                              Client
+                              Gated Community
                             </h4>
-                            <p>Studio Massimo, Italy</p>
+                          </div>
+                          
+                          <div className="col-md-12 m-b10">
+                            <h4 className="text-uppercase font-weight-600 m-b10">
+                              Proper Drainage System
+                            </h4>
                           </div>
                           <div className="col-md-12 m-b10">
                             <h4 className="text-uppercase font-weight-600 m-b10">
-                              Project type
+                              Elegant Arch with gate
                             </h4>
-                            <p>Contruction, Brading</p>
                           </div>
+
                           <div className="col-md-12 m-b10">
                             <h4 className="text-uppercase font-weight-600 m-b10">
-                              Location
+                              Overhead water tank
                             </h4>
-                            <p>Mountain View CA 94043</p>
                           </div>
+
                           <div className="col-md-12 m-b10">
                             <h4 className="text-uppercase font-weight-600 m-b10">
-                              Year
+                              Solar street lamp
                             </h4>
-                            <p>2022</p>
                           </div>
                         </div>
                       </div>

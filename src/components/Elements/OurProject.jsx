@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const filters = [
-    { label: "NSV Enclave", filter: ".residency" },
-    { label: "NSV Residency", filter: ".enclave" },
+    { label: "NSV Enclave", filter: ".enclave" },
+    { label: "NSV Residency", filter: ".residency" },
     // { label: "Hospital", filter: ".cat-2" },
     // { label: "Residential", filter: ".cat-3" },
     // { label: "Office", filter: ".cat-5" },
@@ -13,43 +13,43 @@ const filters = [
 const projects = [
     {
         image: require('./../../images/projects/portrait/residency01.jpeg'),
-        title: 'Chair Furniture',
-        address: 'Muscat, Sultanate of Oman',
+        title: 'NSV Residency',
+        // address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
         filter: 'residency'
     },
     {
         image: require('./../../images/projects/portrait/residency02.jpeg'),
-        title: 'Furniture',
-        address: 'North House',
+        title: 'NSV Residency',
+        // address: 'North House',
         width: 'col-md-3',
         filter: 'residency'
     },
     {
         image: require('./../../images/projects/portrait/residency03.jpeg'),
-        title: 'Living room',
-        address: 'Aqaba, Jordan',
+        title: 'NSV Residency ',
+        // address: 'Aqaba, Jordan',
         width: 'col-md-3',
         filter: 'residency'
     },
     {
         image: require('./../../images/projects/portrait/enclave01.jpeg'),
-        title: 'Dream Workspace',
-        address: 'Perth, Australia',
+        title: 'NSV Enclave',
+        // address: 'Perth, Australia',
         width: 'col-md-3',
         filter: 'enclave'
     },
     {
         image: require('./../../images/projects/portrait/enclave02.jpeg'),
-        title: 'Decore',
-        address: 'Aqaba, Jordan',
+        title: 'NSV Enclave',
+        // address: 'Aqaba, Jordan',
         width: 'col-md-3',
         filter: 'enclave'
     },
     {
         image: require('./../../images/projects/portrait/enclave03.jpeg'),
-        title: 'Modern Decoration',
-        address: 'Muscat, Sultanate of Oman',
+        title: 'NSV Enclave',
+        // address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
         filter: 'enclave'
     }

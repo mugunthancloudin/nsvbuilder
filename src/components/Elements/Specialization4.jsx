@@ -4,27 +4,27 @@ import { NavLink } from 'react-router-dom';
 const services = [
     {
         count: 1,
-        title: `Building Construction`,
+        title: `Amenities `,
         icon: require('./../../images/icon/crane-1.png'),
-        description: 'Building construction involves planning, designing, and assembling materials to create structures for various human activities.',
+        description: 'Amenities include a swimming pool, gym, playground, clubhouse, landscaped gardens, 24-hour security, and parking facilities.',
     },
     {
         count: 2,
-        title: 'Building Renovation',
+        title: 'Location advantage',
         icon: require('./../../images/icon/renovation.png'),
-        description: 'Building renovation updates and restores structures, improving functionality, safety, and aesthetics while preserving original elements.',
+        description: 'Conveniently located near schools, shopping centers, hospitals, parks, public transportation, major highways, and restaurants.',
     },
     {
         count: 3,
-        title: 'Building Maintenance',
+        title: 'About project',
         icon: require('./../../images/icon/toolbox.png'),
-        description: 'Building maintenance involves regular inspections, repairs, and upkeep to ensure safety, functionality, and longevity of structures.',
+        description: 'The residential project offers luxury apartments, green spaces, top-notch amenities, prime location, and sustainable design',
     },
     {
         count: 4,
-        title: 'Architecture Design',
+        title: 'About builder',
         icon: require('./../../images/icon/compass.png'),
-        description: 'Architecture design blends creativity and functionality, planning and creating structures that are both pleasing and practical.',
+        description: 'NSV constructs dream homes with precision, melding design and functionality for lasting comfort and beauty.',
     }
 ]
 
@@ -44,7 +44,7 @@ class Specialization4 extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        {/* TITLE END */}
+                        {/* TITLE END */} 
                         {/* IMAGE CAROUSEL START */}
                         <div className="section-content">
                             <div className="row">

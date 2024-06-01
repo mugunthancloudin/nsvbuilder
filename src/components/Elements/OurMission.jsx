@@ -39,33 +39,19 @@ class OurMission extends React.Component {
                       <br /> what we serve
                     </h3>
                     <p>
-                      lorem Ipsum available, but the majority have suffered
-                      alteration in some form, by ious versi ons have evolved
-                      over the years, sometimes by accident
+                      NSV Property Developers Pvt. Ltd., is a leading property
+                      developer specializing in residential as well as plotted
+                      development across in North Coimbatore.
                     </p>
-                    <ul className="list-angle-right anchor-line">
-                      <li>
-                        <NavLink to={"/services"}>
-                          Construction Management
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={"/services"}>
-                          Pre Construction Services
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={"/services"}>
-                          Contract Administration
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={"/services"}>Implementation</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={"/services"}>Leed consultation</NavLink>
-                      </li>
-                    </ul>
+
+                    <p>
+                      {" "}
+                      Successful projects in Coimbatore speak volumes about the
+                      quality and glory of the company. Their commitment to
+                      excellence and customer satisfaction is unmatched in the
+                      industry.
+                    </p>
+
                     <div className="text-right">
                       <NavLink
                         to="/about"
