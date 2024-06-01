@@ -16,8 +16,8 @@ class Specialization extends React.Component {
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/construction.jpg')} alt=""/>
                                         <div className="figcaption">
-                                            <h4>Construction</h4>
-                                            <p>Engineering your dreams with us.</p>
+                                            <h4>Projects</h4>
+                                            {/* <p>Engineering your dreams with us.</p> */}
                                             <NavLink to="/project-detail" ><i className="link-plus bg-primary" /></NavLink>
                                         </div>
                                     </div>
@@ -26,8 +26,8 @@ class Specialization extends React.Component {
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/Architecture-01.jpg')} alt="" />
                                         <div className="figcaption">
-                                            <h4>Architecture</h4>
-                                            <p>Life is Architecture.</p>
+                                            <h4>About Us</h4>
+                                            {/* <p>Life is Architecture.</p> */}
                                             <NavLink to="/project-detail" ><i className="link-plus bg-primary" /></NavLink>
                                         </div>
                                     </div>
@@ -36,8 +36,8 @@ class Specialization extends React.Component {
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/renovation work-01.jpg')} alt="" />
                                         <div className="figcaption bg-dark">
-                                            <h4>Renovation</h4>
-                                            <p>Dazzling Design</p>
+                                            <h4>Contact Us</h4>
+                                            {/* <p>Dazzling Design</p> */}
                                             <NavLink to="/project-detail" ><i className="link-plus bg-primary" /></NavLink>
                                         </div>
                                     </div>

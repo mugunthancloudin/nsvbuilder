@@ -92,7 +92,7 @@ class SimilarProjects extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-center">
                                 <div className="mt-separator">
-                                    <h2 className="text-white text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Similar</span> projects</h2>
+                                    <h2 className="text-white text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Plan</span> Details</h2>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ class SimilarProjects extends React.Component {
                         </div>
                     </div>
                     <div className="hilite-title text-left p-l50 text-uppercase hilite-dark">
-                        <strong>projects</strong>
+                        <strong>Plans</strong>
                     </div>
                 </div>
             </>

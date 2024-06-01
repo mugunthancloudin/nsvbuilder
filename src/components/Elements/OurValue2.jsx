@@ -59,23 +59,16 @@ class OurValue2 extends React.Component {
                       at its layout.there are many variations of passages of
                       Ipsum available,
                     </p>
-                    <ul className="list-angle-right anchor-line">
-                      <li>
-                        <NavLink to={"/services"}>
-                          Construction Management
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={"/services"}>
-                          Pre Construction Services
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink to={"/services"}>
-                          Contract Administration
-                        </NavLink>
-                      </li>
-                    </ul>
+
+                    <p>
+                      NSV Property Developers Pvt. Ltd., is a leading property
+                      developer specializing in residential as well as plotted
+                      development across in North Coimbatore. Successful
+                      projects in Coimbatore speak volumes about the quality and
+                      glory of the company. We are committed to develop
+                      designing, construct residential and all types of
+                      building.
+                    </p>
                   </div>
                   {/* TITLE END */}
                   {/* <div className="author-info author-info-v2 p-t20">

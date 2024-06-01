@@ -23,7 +23,7 @@ class Home extends React.Component {
                     <About2 />
                     <OurValue2 />
                     <OurMission />
-                    <OurServices />
+                    {/* <OurServices /> */}
                     <Callus />
                     <OurProject />
                     {/* <Blogs /> */}
