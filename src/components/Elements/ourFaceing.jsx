@@ -95,7 +95,7 @@ class OurFaceing extends React.Component {
                         <div className="section-content">
                             <div className="portfolio-wrap row mfp-gallery product-stamp clearfix">
                                 {/* COLUMNS 1 */}
-                                <div className="stamp col-md-3 col-sm-6 m-b30">
+                                <div className="stamp col-md-3 col-sm-6 col-lg-6 m-b30">
                                     <div className="bg-gray p-a30">
                                         <div className="filter-wrap">
                                             <ul className="filter-navigation masonry-filter text-uppercase">
