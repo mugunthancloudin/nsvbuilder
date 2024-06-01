@@ -5,6 +5,7 @@ import Footer from "./../Common/Footer";
 import SimilarProjects from "./../Elements/SimilarProjects";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import OurFaceing from "../Elements/ourFaceing";
 
 var bnrimg = require("./../../images/banner/banner.jpg");
 
@@ -184,6 +185,9 @@ class EnclaveProject extends React.Component {
               </div>
             </div>
           </div>
+
+          {/* faceing */}
+          <OurFaceing/>
           {/* SECTION CONTENT END  */}
           <SimilarProjects />
         </div>
