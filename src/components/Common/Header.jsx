@@ -70,9 +70,12 @@ class Header extends React.Component {
                 </div>
                 <div className="mt-topbar-right clearfix">
                   <div className="appint-btn">
-                    <NavLink to={"#"} className="site-button">
+                    <a
+                      href="https://www.99acres.com/nsv-residency-karamadai-coimbatore-npxid-r427007"
+                      className="site-button"
+                    >
                       Make an Appointment
-                    </NavLink>
+                    </a>
                   </div>
                 </div>
               </div>

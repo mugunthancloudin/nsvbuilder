@@ -109,7 +109,7 @@ class OurProject extends React.Component {
     render() {
         return (
             <>
-                <div className="section-full mobile-page-padding p-t80 p-b30 square_shape2 ">
+                <div className="section-full mobile-page-padding p-b30 square_shape2 ">
                     <div className="container">
                         {/* TITLE START */}
                         <div className="section-head">
@@ -119,7 +119,7 @@ class OurProject extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        {/* TITLE END */}
+                        {/* TITLE END */} 
                         <div className="section-content">
                             <div className="portfolio-wrap row mfp-gallery product-stamp clearfix">
                                 {/* COLUMNS 1 */}

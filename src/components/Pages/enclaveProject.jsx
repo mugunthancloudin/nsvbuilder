@@ -6,6 +6,7 @@ import SimilarProjects from "./../Elements/SimilarProjects";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 import OurFaceing from "../Elements/ourFaceing";
+import enclaveBanner from "../../images/projects/portrait/nsvEnclaveBanner.png";
 
 var bnrimg = require("./../../images/banner/banner.jpg");
 
@@ -22,7 +23,7 @@ class EnclaveProject extends React.Component {
           />
 
           {/* SECTION CONTENT START */}
-          <div className="section-full p-tb80 inner-page-padding">
+          <div className="section-full p-t80">
             <div className="container">
               <div className="project-detail-outer">
                 <div className="m-b0">
@@ -74,7 +75,7 @@ class EnclaveProject extends React.Component {
                               Gated Community
                             </h4>
                           </div>
-                          
+
                           <div className="col-md-12 m-b10">
                             <h4 className="text-uppercase font-weight-600 m-b10">
                               Proper Drainage System
@@ -100,23 +101,16 @@ class EnclaveProject extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-8">
-                      <div className="mt-box">
-                        <div className="mt-thum-bx mt-img-overlay1 mt-img-effect yt-thum-box">
-                          <img
-                            src="http://i3.ytimg.com/vi/s3A7AK1K2hc/maxresdefault.jpg"
-                            alt=""
-                          />
-                          <button
-                            type="button"
-                            className="play-now"
-                            data-toggle="modal"
-                            data-target="#myModal3"
-                          >
-                            <i className="icon fa fa-play" />
-                            <span className="ripple" />
-                          </button>
-                        </div>
+                    <div className="col-lg-8">
+                      <div className="row w-100">
+                        <img src={enclaveBanner} alt="enclaveBanner"/>
+                        <p className="pt-5">
+                          NSV Property Developers Pvt. Ltd., is a leading
+                          property developer specializing in residential as well
+                          as plotted development across in North Coimbatore.
+                          Successful projects in Coimbatore speak volumes about
+                          the quality and glory of the company.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -127,6 +121,17 @@ class EnclaveProject extends React.Component {
                       Creating a sustainable future through building
                       preservation, green architecture, and smart design
                     </h3>
+
+                    <p>
+                      NSV Enclave is a set of around 40 Independent 2-3 BHK
+                      residences spread over a vast 2.5 acre area which is
+                      located in between Karamadai and Mettupalayam (Teacher's
+                      Colony - Gandhi Nagar), an environment that spells
+                      serenity. The villas, boasting of high construction
+                      standards and excellent finish, offer you maximum sense of
+                      space.{" "}
+                    </p>
+
                     <p>
                       {" "}
                       Designers think everything done by someone else is awful,
@@ -139,23 +144,7 @@ class EnclaveProject extends React.Component {
                       most powerful men have always inspired the architects; the
                       architect has always been influenced by power.
                     </p>
-                    <p>
-                      Tincidunt integer euaugue augue nunc elit dolor luctus
-                      placerat scelerisque euismod lorem. Utenim ad minim veniam
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip
-                      ex ea commodo. Tincidunt integer eu augue augue nunc elit
-                      dolor, luctus placerat scelerisque euismod, iaculis eu
-                      lacus nunc mi elite sit amet justo nunc tempore. Lorem
-                      ipsum dolor sit amet consectetur adipiscing elitsed do
-                      eiusmod tempor incididunt ut ore magna aliqua. Arullamco
-                      laboris nisi ut aliquip ex ea commodo. Tincidunt integer
-                      eu augue augue nunc elit dolor, luctus placerat
-                      scelerisque euismod, iaculis eu lacus nunc mi elite sit
-                      amet justo nunc tempore. Lorem ipsum dolor sit amet
-                      consectetur adipiscing elitsed do eiusmod tempor
-                      incididunt ut ore magna aliqua.{" "}
-                    </p>
-                    <div className="m-b0">
+                    {/* <div className="m-b0">
                       <div className="mt-divider divider-1px  bg-black">
                         <i className="icon-dot c-square" />
                       </div>
@@ -179,7 +168,7 @@ class EnclaveProject extends React.Component {
                       <li>
                         <NavLink to={"#"} className="fa fa-instagram" />
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -187,7 +176,7 @@ class EnclaveProject extends React.Component {
           </div>
 
           {/* faceing */}
-          <OurFaceing/>
+          <OurFaceing />
           {/* SECTION CONTENT END  */}
           <SimilarProjects />
         </div>

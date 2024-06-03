@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const filters = [
-    { label: "East Faceing", filter: ".East" },
-    { label: "North Faceing", filter: ".North" },
+    { label: "East Facing", filter: ".East" },
+    { label: "West Facing", filter: ".West" },
     // { label: "Hospital", filter: ".cat-2" },
     // { label: "Residential", filter: ".cat-3" },
     // { label: "Office", filter: ".cat-5" },
@@ -12,46 +12,46 @@ const filters = [
 
 const projects = [
     {
-        image: require('./../../images/projects/portrait/residency01.jpeg'),
-        title: 'East Faceing',
+        image: require('./../../images/projects/portrait/enclave01.jpeg'),
+        title: 'East Facing',
         // address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
         filter: 'East'
     },
     {
-        image: require('./../../images/projects/portrait/residency02.jpeg'),
-        title: 'East Faceing',
+        image: require('./../../images/projects/portrait/enclave04.jpeg'),
+        title: 'East Facing',
         // address: 'North House',
         width: 'col-md-3',
         filter: 'East'
     },
     {
-        image: require('./../../images/projects/portrait/residency03.jpeg'),
-        title: 'East Faceing ',
+        image: require('./../../images/projects/portrait/enclave05.jpeg'),
+        title: 'East Facing ',
         // address: 'Aqaba, Jordan',
         width: 'col-md-3',
         filter: 'East'
     },
     {
-        image: require('./../../images/projects/portrait/enclave01.jpeg'),
-        title: 'North Faceing',
+        image: require('./../../images/projects/portrait/enclave06.jpeg'),
+        title: 'West Facing',
         // address: 'Perth, Australia',
         width: 'col-md-3',
-        filter: 'North'
+        filter: 'West'
     },
     {
         image: require('./../../images/projects/portrait/enclave02.jpeg'),
-        title: 'North Faceing',
+        title: 'West Facing',
         // address: 'Aqaba, Jordan',
         width: 'col-md-3',
-        filter: 'North'
+        filter: 'West'
     },
     {
         image: require('./../../images/projects/portrait/enclave03.jpeg'),
-        title: 'North Faceing',
+        title: 'West Facing',
         // address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
-        filter: 'North'
+        filter: 'West'
     }
 ]
 
@@ -118,7 +118,7 @@ class OurFaceing extends React.Component {
                                                 <h4 className="mt-tilte m-b10 m-t0">{item.title}</h4>
                                                 <p className="m-b0">{item.address}</p>
                                             </div>
-                                            <NavLink to="/project-detail"></NavLink>
+                                            {/* <NavLink to="/project-detail"></NavLink> */}
                                         </div>
                                     </div>
                                 ))}
