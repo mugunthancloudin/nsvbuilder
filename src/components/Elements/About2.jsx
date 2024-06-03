@@ -114,33 +114,33 @@ class About2 extends React.Component {
             <div className="container">
               <div className="section-content">
                 <div className="row">
-                  <div className="col-md-3 col-sm-6">
+                  <div className="col-md-6 col-sm-6">
                     <div className="text-primary mt-icon-box-wraper left m-b30">
                       <span className="icon-md p-t10">
                         <i className="flaticon-city" />
                       </span>
                       <div className="icon-content text-white">
                         <div className="counter font-50 font-weight-800 m-b5">
-                          <CountUp end={2500} duration={5} />
+                          <CountUp end={2} duration={3} />
                         </div>
                         <span className="font-16">Projects Done</span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-3 col-sm-6">
+                  <div className="col-md-6 col-sm-6">
                     <div className="text-primary mt-icon-box-wraper left m-b30">
                       <span className="icon-md p-t10">
                         <i className="flaticon-worker" />
                       </span>
                       <div className="icon-content text-white">
                         <div className="counter font-50 font-weight-800 m-b5">
-                          <CountUp end={1500} duration={5} />
+                          <CountUp end={20} duration={3} /> +
                         </div>
                         <span className="font-16">Happy Client</span>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-3 col-sm-6">
+                  {/* <div className="col-md-3 col-sm-6">
                     <div className="text-primary mt-icon-box-wraper left m-b30">
                       <span className="icon-md p-t10">
                         <i className="flaticon-crane" />
@@ -152,8 +152,8 @@ class About2 extends React.Component {
                         <span className="font-16">Industries Served</span>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-3 col-sm-6">
+                  </div> */}
+                  {/* <div className="col-md-3 col-sm-6">
                     <div className="text-primary mt-icon-box-wraper left m-b0">
                       <span className="icon-md p-t10">
                         <i className="flaticon-art-and-design" />
@@ -165,7 +165,7 @@ class About2 extends React.Component {
                         <span className="font-16">Renovate</span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
