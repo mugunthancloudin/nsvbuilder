@@ -2,7 +2,7 @@ import React from "react";
 
 const ScrolToTop = () => {
   const handleClick = () => {
-    window.location.href = "https://wa.me/9842984247"; // Redirects to a specific WhatsApp chat
+    window.location.href = "https://wa.me/98948 17125"; // Redirects to a specific WhatsApp chat
   };
 
   return (
