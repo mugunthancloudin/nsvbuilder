@@ -74,7 +74,7 @@ class Header extends React.Component {
                       href="https://www.99acres.com/nsv-residency-karamadai-coimbatore-npxid-r427007"
                       className="site-button"
                     >
-                      Make an Appointment
+                      Enquire us on 99acres.com
                     </a>
                   </div>
                 </div>

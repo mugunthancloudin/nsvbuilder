@@ -5,6 +5,8 @@ import Footer from "./../Common/Footer";
 import SimilarProjects from "./../Elements/SimilarProjects";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import localVideo from "../../assets/media/video/drone01.mp4";
+
 
 var bnrimg = require("./../../images/banner/banner.jpg");
 
@@ -190,8 +192,8 @@ class ResidencyProject extends React.Component {
 
         <div className="modal fade" id="myModal3" role="dialog">
           <div className="modal-dialog">
-            <div className="modal-content">
-              <ReactPlayer url="https://www.youtube.com/watch?v=s3A7AK1K2hc" />
+          <div className="modal-content">
+              <ReactPlayer url={localVideo} controls={true} playing={true} />
             </div>
           </div>
         </div>
