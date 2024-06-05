@@ -6,12 +6,27 @@ import SimilarProjects from "./../Elements/SimilarProjects";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 import localVideo from "../../assets/media/video/drone01.mp4";
-
+import residence from "../../assets/documents/residence-ebrochure.pdf"
 
 var bnrimg = require("./../../images/banner/banner.jpg");
 
 class ResidencyProject extends React.Component {
+  
   render() {
+
+    const handleDownload = () => {
+      // Create a hidden anchor element
+      const link = document.createElement("a");
+      link.href = residence;
+      link.download = "residence-ebrochure.pdf";
+      document.body.appendChild(link);
+      link.click();
+      // Check if the link exists before removing it
+      if (link.parentNode) {
+        document.body.removeChild(link);
+      }
+    };
+
     return (
       <>
         <Header />
@@ -42,7 +57,7 @@ class ResidencyProject extends React.Component {
                               Gated Community
                             </h4>
                           </div>
-                          
+
                           <div className="col-md-12 m-b10">
                             <h4 className="text-uppercase font-weight-600 m-b10">
                               Proper Drainage System
@@ -64,6 +79,14 @@ class ResidencyProject extends React.Component {
                             <h4 className="text-uppercase font-weight-600 m-b10">
                               Solar street lamp
                             </h4>
+                          </div>
+
+                          <div className="col-md-12 m-b10">
+                            <div className="appint-btn" onClick={handleDownload}>
+                              <a className="site-button">
+                              Download Browture
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -156,31 +179,6 @@ class ResidencyProject extends React.Component {
                       exclusive lifestyle, and comfortable residential enclave
                       snuggled in the serene location of the city.
                     </p>
-                    <div className="m-b0">
-                      <div className="mt-divider divider-1px  bg-black">
-                        <i className="icon-dot c-square" />
-                      </div>
-                    </div>
-                    <ul className="social-icons social-square social-darkest m-b0">
-                      <li>
-                        <NavLink to={"#"} className="fa fa-facebook" />
-                      </li>
-                      <li>
-                        <NavLink to={"#"} className="fa fa-twitter" />
-                      </li>
-                      <li>
-                        <NavLink to={"#"} className="fa fa-linkedin" />
-                      </li>
-                      <li>
-                        <NavLink to={"#"} className="fa fa-rss" />
-                      </li>
-                      <li>
-                        <NavLink to={"#"} className="fa fa-youtube" />
-                      </li>
-                      <li>
-                        <NavLink to={"#"} className="fa fa-instagram" />
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
@@ -192,7 +190,7 @@ class ResidencyProject extends React.Component {
 
         <div className="modal fade" id="myModal3" role="dialog">
           <div className="modal-dialog">
-          <div className="modal-content">
+            <div className="modal-content">
               <ReactPlayer url={localVideo} controls={true} playing={true} />
             </div>
           </div>

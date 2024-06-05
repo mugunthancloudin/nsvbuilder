@@ -7,11 +7,27 @@ import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 import OurFaceing from "../Elements/ourFaceing";
 import enclaveBanner from "../../images/projects/portrait/nsvEnclaveBanner.png";
+import residence from "../../assets/documents/residence-ebrochure.pdf"
+
 
 var bnrimg = require("./../../images/banner/banner.jpg");
 
 class EnclaveProject extends React.Component {
   render() {
+
+    const handleDownload = () => {
+      // Create a hidden anchor element
+      const link = document.createElement("a");
+      link.href = residence;
+      link.download = "residence-ebrochure.pdf";
+      document.body.appendChild(link);
+      link.click();
+      // Check if the link exists before removing it
+      if (link.parentNode) {
+        document.body.removeChild(link);
+      }
+    };
+
     return (
       <>
         <Header />
@@ -111,6 +127,9 @@ class EnclaveProject extends React.Component {
                           Successful projects in Coimbatore speak volumes about
                           the quality and glory of the company.
                         </p>
+                        <div className="appint-btn" onClick={handleDownload}>
+                      <a className="site-button">Download Browture</a>
+                    </div>
                       </div>
                     </div>
                   </div>

@@ -56,7 +56,7 @@ class Header extends React.Component {
                 <div className="mt-topbar-left clearfix">
                   <ul className="list-unstyled e-p-bx pull-right">
                     <li>
-                      <i className="fa fa-envelope" /> info@nsvproperties.com
+                      <i className="fa fa-envelope" /> nsvproperties1@gmail.com
                     </li>
                     <li>
                       <i className="fa fa-phone" />
@@ -174,10 +174,10 @@ class Header extends React.Component {
                               Address info
                             </h5>
                             <p>
-                              NSV Property Developers,<br></br> 16/90-4A,B,
-                              Above Reliance Fresh,<br></br>Mettupalayam road,
-                              <br></br> P.N.Palayam Coimbatore-641020,<br></br>{" "}
-                              TamilNadu, India
+                              NSV Property Developers,<br></br> 49/10, Kappal
+                              Complex,<br></br> Teachers Colony, <br></br>Mettupalayam
+                              Road,<br></br>Karamadai - 641 104. Comibatore Dist,<br></br> Tamil
+                              Nadu, INDIA.
                             </p>
                           </div>
                         </div>
@@ -217,7 +217,7 @@ class Header extends React.Component {
                         </ul>
                       </div>
                       <div className="text-center">
-                        <h4 className="font-weight-600">© 2022 7xtheme</h4>
+                        <h4 className="font-weight-600">© 2024 All rights reserved</h4>
                       </div>
                     </div>
                   </div>
