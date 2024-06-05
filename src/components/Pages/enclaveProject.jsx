@@ -7,7 +7,7 @@ import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 import OurFaceing from "../Elements/ourFaceing";
 import enclaveBanner from "../../images/projects/portrait/nsvEnclaveBanner.png";
-import residence from "../../assets/documents/residence-ebrochure.pdf"
+import enclave_ebrochure from "../../assets/documents/enclave_ebrochure.pdf"
 
 
 var bnrimg = require("./../../images/banner/banner.jpg");
@@ -18,8 +18,8 @@ class EnclaveProject extends React.Component {
     const handleDownload = () => {
       // Create a hidden anchor element
       const link = document.createElement("a");
-      link.href = residence;
-      link.download = "residence-ebrochure.pdf";
+      link.href = enclave_ebrochure;
+      link.download = "enclave_ebrochure.pdf";
       document.body.appendChild(link);
       link.click();
       // Check if the link exists before removing it
