@@ -100,7 +100,13 @@ class Footer extends React.Component {
                         <NavLink to={"#"} className="fa fa-linkedin" />
                       </li>
                     </ul>
+
+                    
                   </div>
+
+                  <button className="footerbtn">
+                      <a className="footerbtn">Download Browture</a>
+                    </button>
                 </div>
                 {/* RESENT POST */}
                 <div className="col-lg-4 col-md-6 col-sm-6">
@@ -126,13 +132,13 @@ class Footer extends React.Component {
                         <NavLink to={"/about"}>About</NavLink>
                       </li>
                       <li>
-                        <NavLink to={"/project-grid"}>Projects</NavLink>
+                        <NavLink to={"/project"}>Projects</NavLink>
                       </li>
                       <li>
-                        <NavLink to={"/blog-grid"}>Blog</NavLink>
+                        <NavLink to={""}>Blog</NavLink>
                       </li>
                       <li>
-                        <NavLink to={"/contactus"}>Contact Us</NavLink>
+                        <NavLink to={""}>Contact Us</NavLink>
                       </li>
                     </ul>
                   </div>

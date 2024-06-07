@@ -86,11 +86,10 @@ class About2 extends React.Component {
                       </h3>
                       <p>
                         <strong>
-                          The Founder of NSV Property Developers Private
-                          Limited, Mr. M. Navaneethan, and his wife, Mrs. R.
-                          Shanthini, realized their vision by establishing a
-                          top-tier construction company that competes with the
-                          industry's best.
+                          The Founder of NSV Property Developers, Mr. M.
+                          Navaneethan, and his wife, Mrs. R. Shanthini, realized
+                          their vision by establishing a top-tier construction
+                          company that competes with the industry's best.
                         </strong>
                       </p>
                       <div className="text-left">
@@ -121,7 +120,7 @@ class About2 extends React.Component {
                       </span>
                       <div className="icon-content text-white">
                         <div className="counter font-50 font-weight-800 m-b5">
-                          <CountUp end={2} duration={3} />
+                          <CountUp end={18} duration={5} />
                         </div>
                         <span className="font-16">Projects Done</span>
                       </div>
@@ -134,7 +133,7 @@ class About2 extends React.Component {
                       </span>
                       <div className="icon-content text-white">
                         <div className="counter font-50 font-weight-800 m-b5">
-                          <CountUp end={20} duration={3} /> +
+                          <CountUp end={400} duration={5} /> +
                         </div>
                         <span className="font-16">Happy Client</span>
                       </div>

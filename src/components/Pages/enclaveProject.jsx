@@ -121,7 +121,7 @@ class EnclaveProject extends React.Component {
                       <div className="row w-100">
                         <img src={enclaveBanner} alt="enclaveBanner"/>
                         <p className="pt-5">
-                          NSV Property Developers Pvt. Ltd., is a leading
+                          NSV Property Developers, is a leading
                           property developer specializing in residential as well
                           as plotted development across in North Coimbatore.
                           Successful projects in Coimbatore speak volumes about

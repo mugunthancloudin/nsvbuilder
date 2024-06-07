@@ -47,6 +47,11 @@ class About4 extends React.Component {
       items: 1,
       dots: true,
     };
+
+    const handleClick = () => {
+      window.open = "https://wa.me/9894817125"; // Redirects to a specific WhatsApp chat
+    };
+
     return (
       <>
         <div className="section-full p-t80 p-b80 bg-white inner-page-padding">
@@ -92,20 +97,11 @@ class About4 extends React.Component {
                       innovative floor plans with a variety of flexible options
                       to meet your changing lifestyle needs.
                     </p>
-                    <div className="author-info p-t20">
-                      {/* <div className="author-signature">
-                                                <img src={require('./../../images/Signature+Black.png')} alt="Signature" width={150} />
-                                            </div>
-                                            <div className="author-name">
-                                                <h4 className="m-t0">David Houkr</h4>
-                                                <p>Architect &amp; Founder</p>
-                                            </div> */}
-                      <NavLink
-                        to="/about"
-                        className="site-button btn-effect m-b15"
-                      >
-                        <span>Get in touch</span>
-                      </NavLink>
+                    <div
+                      className="site-button btn-effect  p-t20"
+                      onClick={handleClick}
+                    >
+                      <span>Get in touch</span>
                     </div>
                   </div>
                 </div>
