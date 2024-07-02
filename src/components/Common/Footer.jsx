@@ -105,7 +105,7 @@ class Footer extends React.Component {
                   </div>
 
                   <button className="footerbtn">
-                      <a className="footerbtn">Download Browture</a>
+                      <a className="footerbtn">Download Brochure</a>
                     </button>
                 </div>
                 {/* RESENT POST */}
