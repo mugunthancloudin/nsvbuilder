@@ -29,7 +29,6 @@ class Slider extends React.Component {
           className="rev_slider_wrapper fullscreen-container"
           data-alias="goodnews-header"
           data-source="gallery"
-          
           style={{ background: "#eeeeee", padding: 0 }}
         >
           <div
