@@ -14,7 +14,7 @@ class Specialization extends React.Component {
                             <div className="row">
                                 <div className="col-lg-3 col-md-4 col-sm-6 m-b30">
                                     <div className="image-effect-one hover-shadow">
-                                        <img src={require('../../images/Projects.jpg')} alt=""/>
+                                        <img src={require('../../images/Project.jpg')} alt=""/>
                                         <div className="figcaption">
                                             <h4>Projects</h4>
                                             {/* <p>Engineering your dreams with us.</p> */}
