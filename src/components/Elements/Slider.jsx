@@ -268,6 +268,7 @@ class Slider extends React.Component {
                 data-description
               >
                 {/* MAIN IMAGE */}
+                
                 <img
                   src={require("./../../images/Banner2.jpg")}
                   alt=""
