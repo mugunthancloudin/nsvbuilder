@@ -14,7 +14,7 @@ class Specialization extends React.Component {
                             <div className="row">
                                 <div className="col-lg-3 col-md-4 col-sm-6 m-b30">
                                     <div className="image-effect-one hover-shadow">
-                                        <img src={require('../../images/construction.jpg')} alt=""/>
+                                        <img src={require('../../images/Projects.jpg')} alt=""/>
                                         <div className="figcaption">
                                             <h4>Projects</h4>
                                             {/* <p>Engineering your dreams with us.</p> */}
@@ -24,7 +24,7 @@ class Specialization extends React.Component {
                                 </div>
                                 <div className="col-lg-3 col-md-4  col-sm-6 m-b30">
                                     <div className="image-effect-one hover-shadow">
-                                        <img src={require('../../images/Architecture-01.jpg')} alt="" />
+                                        <img src={require('../../images/AboutUs.jpg')} alt="" />
                                         <div className="figcaption">
                                             <h4>About Us</h4>
                                             {/* <p>Life is Architecture.</p> */}
@@ -34,7 +34,7 @@ class Specialization extends React.Component {
                                 </div>
                                 <div className="col-lg-3 col-md-4  col-sm-6 m-b30">
                                     <div className="image-effect-one hover-shadow">
-                                        <img src={require('../../images/renovation work-01.jpg')} alt="" />
+                                        <img src={require('../../images/ContactUs.jpg')} alt="" />
                                         <div className="figcaption bg-dark">
                                             <h4>Contact Us</h4>
                                             {/* <p>Dazzling Design</p> */}
