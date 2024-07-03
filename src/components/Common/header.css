@@ -4,9 +4,10 @@
 
 .footerbtn{
     /* color: white; */
-    background-color: rgb(245,191,35);
+    background-color:rgb(103,164,60);
     font-weight: 600;
     padding: 10px   ;
+    color: white;
 }
 
 .footerbtn:hover{

@@ -48,7 +48,7 @@ class Slider extends React.Component {
                 data-easein="default"
                 data-easeout="default"
                 data-masterspeed="default"
-                data-thumb={require("./../../images/Banner01.jpg")}
+                data-thumb={require("./../../images/Banner1.jpg")}
                 data-rotate={0}
                 data-fstransition="fade"
                 data-fsmasterspeed={300}
@@ -69,9 +69,9 @@ class Slider extends React.Component {
               >
                 {/* MAIN IMAGE */}
                 <img
-                  src={require("./../../images/Banner01.jpg")}
+                  src={require("./../../images/Banner1.jpg")}
                   alt=""
-                  data-lazyload={require("./../../images/Banner01.jpg")}
+                  data-lazyload={require("./../../images/Banner1.jpg")}
                   data-bgposition="center center"
                   data-bgfit="cover"
                   data-bgparallax={4}
@@ -248,7 +248,7 @@ class Slider extends React.Component {
                 data-easein="default"
                 data-easeout="default"
                 data-masterspeed="default"
-                data-thumb={require("./../../images/Banner02.jpg")}
+                data-thumb={require("./../../images/Banner2.jpg")}
                 data-rotate={0}
                 data-fstransition="fade"
                 data-fsmasterspeed={300}
@@ -269,9 +269,9 @@ class Slider extends React.Component {
               >
                 {/* MAIN IMAGE */}
                 <img
-                  src={require("./../../images/Banner02.jpg")}
+                  src={require("./../../images/Banner2.jpg")}
                   alt=""
-                  data-lazyload={require("./../../images/Banner02.jpg")}
+                  data-lazyload={require("./../../images/Banner2.jpg")}
                   data-bgposition="center center"
                   data-bgfit="cover"
                   data-bgparallax={4}
