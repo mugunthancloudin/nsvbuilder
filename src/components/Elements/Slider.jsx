@@ -57,7 +57,7 @@ class Slider extends React.Component {
                 data-title
                 data-param1
                 data-param2
-                data-param3
+                data-param3  
                 data-param4
                 data-param5
                 data-param6
