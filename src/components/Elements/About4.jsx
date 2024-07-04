@@ -5,10 +5,10 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const images = [
-  require("./../../images/gallery/portrait/about01.jpg"),
-  require("./../../images/gallery/portrait/about02.jpg"),
-  require("./../../images/gallery/portrait/about03.jpg"),
-  require("./../../images/gallery/portrait/about04.jpg"),
+  require("./../../images/gallery/portrait/about1.jpg"),
+  require("./../../images/gallery/portrait/about2.jpg"),
+  require("./../../images/gallery/portrait/about3.jpg"),
+  require("./../../images/gallery/portrait/about4.jpg"),
 ];
 
 var bnr1 = require("./../../images/background/line.png");

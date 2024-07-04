@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import ReactPlayer from "react-player";
-import localVideo from "../../assets/media/video/drone.mp4";
+import localVideo from "../../assets/media/video/drone1.mp4";
 
 var img1 = require("./../../images/Banner03.jpg");
 
