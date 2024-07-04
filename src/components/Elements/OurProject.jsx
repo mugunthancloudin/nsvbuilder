@@ -16,6 +16,7 @@ const projects = [
         title: 'NSV Residency',
         // address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
+        link: '/nsv-residency',
         filter: 'residency'
     },
     {
@@ -23,6 +24,7 @@ const projects = [
         title: 'NSV Residency',
         // address: 'North House',
         width: 'col-md-3',
+        link: '/nsv-residency',
         filter: 'residency'
     },
     {
@@ -30,6 +32,7 @@ const projects = [
         title: 'NSV Residency ',
         // address: 'Aqaba, Jordan',
         width: 'col-md-3',
+        link: '/nsv-residency',
         filter: 'residency'
     },
     {
@@ -37,6 +40,7 @@ const projects = [
         title: 'NSV Enclave',
         // address: 'Perth, Australia',
         width: 'col-md-3',
+        link: '/nsv-enclave',
         filter: 'enclave'
     },
     {
@@ -44,6 +48,7 @@ const projects = [
         title: 'NSV Enclave',
         // address: 'Aqaba, Jordan',
         width: 'col-md-3',
+        link: '/nsv-enclave',
         filter: 'enclave'
     },
     {
@@ -51,6 +56,7 @@ const projects = [
         title: 'NSV Enclave',
         // address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
+        link: '/nsv-enclave',
         filter: 'enclave'
     }
     // {
@@ -146,7 +152,7 @@ class OurProject extends React.Component {
                                                 <h4 className="mt-tilte m-b10 m-t0">{item.title}</h4>
                                                 <p className="m-b0">{item.address}</p>
                                             </div>
-                                            <NavLink to="/project-detail"></NavLink>
+                                            <NavLink to={item.link}></NavLink>
                                         </div>
                                     </div>
                                 ))}
