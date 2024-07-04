@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import ReactPlayer from "react-player";
 import localVideo from "../../assets/media/video/drone1.mp4";
 
-var img1 = require("./../../images/Banner03.jpg");
+var img1 = require("./../../images/banner1.jpeg");
 
 class OurValue2 extends React.Component {
   render() {

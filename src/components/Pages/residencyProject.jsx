@@ -42,7 +42,7 @@ class ResidencyProject extends React.Component {
           <div className="section-full p-tb80 inner-page-padding">
             <div className="container">
               <div className="project-detail-outer">
-                <div className="m-b30">
+                {/* <div className="m-b30">
                   <div className="row">
                     <div className="col-md-4">
                       <div className="product-block">
@@ -111,7 +111,7 @@ class ResidencyProject extends React.Component {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="m-b0">
                   <div className="row">
